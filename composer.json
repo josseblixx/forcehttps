@@ -7,12 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Blixx\\Invite\\": "src"
+            "Blixx\\ForceHttps\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Blixx\\Invite\\": "src"
+            "Blixx\\ForceHttps\\": "src"
         }
     },
     "license": "NONE",
