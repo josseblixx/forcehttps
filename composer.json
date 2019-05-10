@@ -1,0 +1,25 @@
+{
+    "name": "blixx/forcehttps",
+    "description": "Forces HTTPS for your Laravel project",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blixx\\Invite\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blixx\\Invite\\": "src"
+        }
+    },
+    "license": "NONE",
+    "authors": [
+        {
+            "name": "Josse Zwols",
+            "email": "josse@blixx.nl"
+        }
+    ]
+}
