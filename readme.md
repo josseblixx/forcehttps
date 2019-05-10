@@ -1,3 +1,6 @@
+# Blixx/ForceHttps
+
+
 ## This package is work in progress
 
 ### Installation instructions
@@ -5,7 +8,7 @@
 #### Step 1: Install package
 ```composer require blixx/forcehttps```
 
-#### Step 2: Add to Web middleware in app/Http/Kernel.php:**
+#### Step 2: Add to Web middleware in app/Http/Kernel.php:
 ```
 protected $middlewareGroups = [
 'web' => [
@@ -14,7 +17,7 @@ protected $middlewareGroups = [
 ],
 ```
 
-#### Step 3: Set your env to live in the .env file**
+#### Step 3: Set your env to live in the .env file
 This package will only run in live or staging mode, so please set your live environment properly:
 
 ```APP_ENV=live```
